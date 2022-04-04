@@ -19,9 +19,13 @@
 1. 安装 python，自行解决🕊️
 2. 安装 selenium ，powershell 或 cmd 下运行 pip install selenium
 3. 安装 webdriver，此处看个人电脑上是什么浏览器，Chrome，Edge，Firefox，Safari都可以
+4. 
     安装教程 [教程链接](https://www.cnblogs.com/ellencode/p/11327389.html)
+    
     需要修改下列参数到对应浏览器（建议使用 Chrome）
+    
     webdriver.exe 放到 python 安装目录下的 Scripts 目录下（不依照教程链接中的方法，按我的！），例如我的就是：
+    
     C:\Users\pserimal\AppData\Local\Programs\Python\Python38-32\Scripts
 
     在 [autoClock.py](autoClock.py) 中
