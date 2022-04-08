@@ -77,7 +77,8 @@ except Exception:
 
 # 提交表格
 try:
-    sure_submit = driver.find_element(By.CSS_SELECTOR, '[onclick="myform52.submit()"]')
+    time.sleep
+    sure_submit = driver.find_element(By.CSS_SELECTOR, '#btn416b')
     sure_submit.click()
     time.sleep(2)
 except Exception:
