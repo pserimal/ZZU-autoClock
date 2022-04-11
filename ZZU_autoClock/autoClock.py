@@ -77,7 +77,7 @@ except Exception:
 
 # 提交表格
 try:
-    time.sleep
+    time.sleep(5)
     sure_submit = driver.find_element(By.CSS_SELECTOR, '#btn416b')
     sure_submit.click()
     time.sleep(2)
